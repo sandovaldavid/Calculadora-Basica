@@ -6,6 +6,18 @@
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles txtResultado.TextChanged
 
     End Sub
+    Private Sub txtResultadoNumero_KeyPress(ByVal sender As Object,
+           ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtResultado.KeyPress
+        If Char.IsDigit(e.KeyChar) Then
+            e.Handled = False
+        ElseIf Char.IsControl(e.KeyChar) Then
+            e.Handled = False
+        ElseIf Char.IsSeparator(e.KeyChar) Then
+            e.Handled = False
+        Else
+            e.Handled = True
+        End If
+    End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnPorcentaje.Click
 
