@@ -395,10 +395,10 @@ Partial Class Form1
         txtResultado.ForeColor = Color.Black
         txtResultado.Location = New Point(15, 24)
         txtResultado.Name = "txtResultado"
+        txtResultado.PlaceholderText = "0"
         txtResultado.ReadOnly = True
         txtResultado.Size = New Size(375, 59)
         txtResultado.TabIndex = 25
-        txtResultado.Text = "0"
         txtResultado.TextAlign = HorizontalAlignment.Right
         ' 
         ' Form1
