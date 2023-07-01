@@ -50,7 +50,7 @@
     Private Sub btnDivision_Click(sender As Object, e As EventArgs) Handles btnDivision.Click
         TipoOperacion()
         Operador = "/"
-        txtOperacion.Text = +txtResultado.Text + Operador
+        txtOperacion.Text = txtResultado.Text + Operador
     End Sub
 
     Private Sub btnSeven_Click(sender As Object, e As EventArgs) Handles btnSeven.Click
@@ -82,7 +82,7 @@
     Private Sub btnResta_Click(sender As Object, e As EventArgs) Handles btnResta.Click
         TipoOperacion()
         Operador = "-"
-        txtOperacion.Text = +txtResultado.Text + Operador
+        txtOperacion.Text = txtResultado.Text + Operador
     End Sub
 
     Private Sub btnOne_Click(sender As Object, e As EventArgs) Handles btnOne.Click
