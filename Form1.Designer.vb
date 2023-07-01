@@ -23,14 +23,8 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Form1))
-        btnPorcentaje = New Button()
-        btnCE = New Button()
         btnC = New Button()
-        btnDEL = New Button()
         btnDivision = New Button()
-        btnRaiz = New Button()
-        btnCuadrado = New Button()
-        btnInversa = New Button()
         btnMultiplicacion = New Button()
         btnNine = New Button()
         btnEight = New Button()
@@ -44,39 +38,11 @@ Partial Class Form1
         btnTwo = New Button()
         btnOne = New Button()
         btnIgual = New Button()
-        btnPunto = New Button()
         btnout = New Button()
-        btnCambioSigno = New Button()
         txtResultado = New TextBox()
+        txtOperacion = New TextBox()
+        btnPunto = New Button()
         SuspendLayout()
-        ' 
-        ' btnPorcentaje
-        ' 
-        btnPorcentaje.BackColor = SystemColors.ButtonHighlight
-        btnPorcentaje.FlatAppearance.BorderColor = Color.Gray
-        btnPorcentaje.FlatAppearance.CheckedBackColor = Color.Gray
-        btnPorcentaje.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnPorcentaje.ForeColor = SystemColors.Desktop
-        btnPorcentaje.Location = New Point(12, 104)
-        btnPorcentaje.Name = "btnPorcentaje"
-        btnPorcentaje.Size = New Size(90, 79)
-        btnPorcentaje.TabIndex = 0
-        btnPorcentaje.Text = "%"
-        btnPorcentaje.UseVisualStyleBackColor = True
-        ' 
-        ' btnCE
-        ' 
-        btnCE.BackColor = SystemColors.ButtonHighlight
-        btnCE.FlatAppearance.BorderColor = Color.Gray
-        btnCE.FlatAppearance.CheckedBackColor = Color.Gray
-        btnCE.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnCE.ForeColor = SystemColors.Desktop
-        btnCE.Location = New Point(108, 104)
-        btnCE.Name = "btnCE"
-        btnCE.Size = New Size(90, 79)
-        btnCE.TabIndex = 1
-        btnCE.Text = "CE"
-        btnCE.UseVisualStyleBackColor = True
         ' 
         ' btnC
         ' 
@@ -85,26 +51,12 @@ Partial Class Form1
         btnC.FlatAppearance.CheckedBackColor = Color.Gray
         btnC.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnC.ForeColor = SystemColors.Desktop
-        btnC.Location = New Point(204, 104)
+        btnC.Location = New Point(298, 157)
         btnC.Name = "btnC"
         btnC.Size = New Size(90, 79)
         btnC.TabIndex = 2
         btnC.Text = "C"
         btnC.UseVisualStyleBackColor = True
-        ' 
-        ' btnDEL
-        ' 
-        btnDEL.BackColor = SystemColors.ButtonHighlight
-        btnDEL.FlatAppearance.BorderColor = Color.Gray
-        btnDEL.FlatAppearance.CheckedBackColor = Color.Gray
-        btnDEL.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnDEL.ForeColor = SystemColors.Desktop
-        btnDEL.Location = New Point(300, 104)
-        btnDEL.Name = "btnDEL"
-        btnDEL.Size = New Size(90, 79)
-        btnDEL.TabIndex = 3
-        btnDEL.Text = "DEL"
-        btnDEL.UseVisualStyleBackColor = True
         ' 
         ' btnDivision
         ' 
@@ -113,54 +65,12 @@ Partial Class Form1
         btnDivision.FlatAppearance.CheckedBackColor = Color.Gray
         btnDivision.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnDivision.ForeColor = SystemColors.Desktop
-        btnDivision.Location = New Point(299, 188)
+        btnDivision.Location = New Point(298, 242)
         btnDivision.Name = "btnDivision"
         btnDivision.Size = New Size(90, 79)
         btnDivision.TabIndex = 7
         btnDivision.Text = "∕"
         btnDivision.UseVisualStyleBackColor = True
-        ' 
-        ' btnRaiz
-        ' 
-        btnRaiz.BackColor = SystemColors.ButtonHighlight
-        btnRaiz.FlatAppearance.BorderColor = Color.Gray
-        btnRaiz.FlatAppearance.CheckedBackColor = Color.Gray
-        btnRaiz.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnRaiz.ForeColor = SystemColors.Desktop
-        btnRaiz.Location = New Point(203, 188)
-        btnRaiz.Name = "btnRaiz"
-        btnRaiz.Size = New Size(90, 79)
-        btnRaiz.TabIndex = 6
-        btnRaiz.Text = "√x"
-        btnRaiz.UseVisualStyleBackColor = True
-        ' 
-        ' btnCuadrado
-        ' 
-        btnCuadrado.BackColor = SystemColors.ButtonHighlight
-        btnCuadrado.FlatAppearance.BorderColor = Color.Gray
-        btnCuadrado.FlatAppearance.CheckedBackColor = Color.Gray
-        btnCuadrado.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnCuadrado.ForeColor = SystemColors.Desktop
-        btnCuadrado.Location = New Point(107, 188)
-        btnCuadrado.Name = "btnCuadrado"
-        btnCuadrado.Size = New Size(90, 79)
-        btnCuadrado.TabIndex = 5
-        btnCuadrado.Text = "x²"
-        btnCuadrado.UseVisualStyleBackColor = True
-        ' 
-        ' btnInversa
-        ' 
-        btnInversa.BackColor = SystemColors.ButtonHighlight
-        btnInversa.FlatAppearance.BorderColor = Color.Gray
-        btnInversa.FlatAppearance.CheckedBackColor = Color.Gray
-        btnInversa.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnInversa.ForeColor = SystemColors.Desktop
-        btnInversa.Location = New Point(11, 188)
-        btnInversa.Name = "btnInversa"
-        btnInversa.Size = New Size(90, 79)
-        btnInversa.TabIndex = 4
-        btnInversa.Text = "1/x"
-        btnInversa.UseVisualStyleBackColor = True
         ' 
         ' btnMultiplicacion
         ' 
@@ -169,7 +79,7 @@ Partial Class Form1
         btnMultiplicacion.FlatAppearance.CheckedBackColor = Color.Gray
         btnMultiplicacion.Font = New Font("Cascadia Code", 12F, FontStyle.Bold, GraphicsUnit.Point)
         btnMultiplicacion.ForeColor = SystemColors.Desktop
-        btnMultiplicacion.Location = New Point(299, 273)
+        btnMultiplicacion.Location = New Point(298, 327)
         btnMultiplicacion.Name = "btnMultiplicacion"
         btnMultiplicacion.Size = New Size(90, 79)
         btnMultiplicacion.TabIndex = 11
@@ -183,7 +93,7 @@ Partial Class Form1
         btnNine.FlatAppearance.CheckedBackColor = Color.Gray
         btnNine.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnNine.ForeColor = SystemColors.Desktop
-        btnNine.Location = New Point(203, 273)
+        btnNine.Location = New Point(204, 157)
         btnNine.Name = "btnNine"
         btnNine.Size = New Size(90, 79)
         btnNine.TabIndex = 10
@@ -197,7 +107,7 @@ Partial Class Form1
         btnEight.FlatAppearance.CheckedBackColor = Color.Gray
         btnEight.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnEight.ForeColor = SystemColors.Desktop
-        btnEight.Location = New Point(107, 272)
+        btnEight.Location = New Point(108, 156)
         btnEight.Name = "btnEight"
         btnEight.Size = New Size(90, 79)
         btnEight.TabIndex = 9
@@ -211,7 +121,7 @@ Partial Class Form1
         btnSeven.FlatAppearance.CheckedBackColor = Color.Gray
         btnSeven.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnSeven.ForeColor = SystemColors.Desktop
-        btnSeven.Location = New Point(11, 273)
+        btnSeven.Location = New Point(12, 157)
         btnSeven.Name = "btnSeven"
         btnSeven.Size = New Size(90, 79)
         btnSeven.TabIndex = 8
@@ -225,7 +135,7 @@ Partial Class Form1
         btnResta.FlatAppearance.CheckedBackColor = Color.Gray
         btnResta.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnResta.ForeColor = SystemColors.Desktop
-        btnResta.Location = New Point(299, 358)
+        btnResta.Location = New Point(298, 412)
         btnResta.Name = "btnResta"
         btnResta.Size = New Size(90, 79)
         btnResta.TabIndex = 15
@@ -239,7 +149,7 @@ Partial Class Form1
         btnSix.FlatAppearance.CheckedBackColor = Color.Gray
         btnSix.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnSix.ForeColor = SystemColors.Desktop
-        btnSix.Location = New Point(203, 358)
+        btnSix.Location = New Point(204, 242)
         btnSix.Name = "btnSix"
         btnSix.Size = New Size(90, 79)
         btnSix.TabIndex = 14
@@ -253,7 +163,7 @@ Partial Class Form1
         btnFive.FlatAppearance.CheckedBackColor = Color.Gray
         btnFive.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnFive.ForeColor = SystemColors.Desktop
-        btnFive.Location = New Point(108, 358)
+        btnFive.Location = New Point(109, 242)
         btnFive.Name = "btnFive"
         btnFive.Size = New Size(90, 79)
         btnFive.TabIndex = 13
@@ -267,7 +177,7 @@ Partial Class Form1
         btnFour.FlatAppearance.CheckedBackColor = Color.Gray
         btnFour.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnFour.ForeColor = SystemColors.Desktop
-        btnFour.Location = New Point(11, 358)
+        btnFour.Location = New Point(12, 242)
         btnFour.Name = "btnFour"
         btnFour.Size = New Size(90, 79)
         btnFour.TabIndex = 12
@@ -281,7 +191,7 @@ Partial Class Form1
         btnSuma.FlatAppearance.CheckedBackColor = Color.Gray
         btnSuma.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnSuma.ForeColor = SystemColors.Desktop
-        btnSuma.Location = New Point(299, 443)
+        btnSuma.Location = New Point(12, 412)
         btnSuma.Name = "btnSuma"
         btnSuma.Size = New Size(90, 79)
         btnSuma.TabIndex = 19
@@ -295,7 +205,7 @@ Partial Class Form1
         btnThree.FlatAppearance.CheckedBackColor = Color.Gray
         btnThree.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnThree.ForeColor = SystemColors.Desktop
-        btnThree.Location = New Point(203, 443)
+        btnThree.Location = New Point(204, 327)
         btnThree.Name = "btnThree"
         btnThree.Size = New Size(90, 79)
         btnThree.TabIndex = 18
@@ -309,7 +219,7 @@ Partial Class Form1
         btnTwo.FlatAppearance.CheckedBackColor = Color.Gray
         btnTwo.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnTwo.ForeColor = SystemColors.Desktop
-        btnTwo.Location = New Point(107, 443)
+        btnTwo.Location = New Point(108, 327)
         btnTwo.Name = "btnTwo"
         btnTwo.Size = New Size(90, 79)
         btnTwo.TabIndex = 17
@@ -323,7 +233,7 @@ Partial Class Form1
         btnOne.FlatAppearance.CheckedBackColor = Color.Gray
         btnOne.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnOne.ForeColor = SystemColors.Desktop
-        btnOne.Location = New Point(11, 443)
+        btnOne.Location = New Point(12, 327)
         btnOne.Name = "btnOne"
         btnOne.Size = New Size(90, 79)
         btnOne.TabIndex = 16
@@ -337,26 +247,12 @@ Partial Class Form1
         btnIgual.FlatAppearance.CheckedBackColor = Color.Gray
         btnIgual.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnIgual.ForeColor = SystemColors.Desktop
-        btnIgual.Location = New Point(299, 528)
+        btnIgual.Location = New Point(12, 497)
         btnIgual.Name = "btnIgual"
-        btnIgual.Size = New Size(90, 79)
+        btnIgual.Size = New Size(376, 79)
         btnIgual.TabIndex = 23
         btnIgual.Text = "="
         btnIgual.UseVisualStyleBackColor = True
-        ' 
-        ' btnPunto
-        ' 
-        btnPunto.BackColor = SystemColors.ButtonHighlight
-        btnPunto.FlatAppearance.BorderColor = Color.Gray
-        btnPunto.FlatAppearance.CheckedBackColor = Color.Gray
-        btnPunto.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnPunto.ForeColor = SystemColors.Desktop
-        btnPunto.Location = New Point(203, 528)
-        btnPunto.Name = "btnPunto"
-        btnPunto.Size = New Size(90, 79)
-        btnPunto.TabIndex = 22
-        btnPunto.Text = "."
-        btnPunto.UseVisualStyleBackColor = True
         ' 
         ' btnout
         ' 
@@ -365,26 +261,12 @@ Partial Class Form1
         btnout.FlatAppearance.CheckedBackColor = Color.Gray
         btnout.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
         btnout.ForeColor = SystemColors.Desktop
-        btnout.Location = New Point(107, 528)
+        btnout.Location = New Point(108, 412)
         btnout.Name = "btnout"
         btnout.Size = New Size(90, 79)
         btnout.TabIndex = 21
         btnout.Text = "0"
         btnout.UseVisualStyleBackColor = True
-        ' 
-        ' btnCambioSigno
-        ' 
-        btnCambioSigno.BackColor = SystemColors.ButtonHighlight
-        btnCambioSigno.FlatAppearance.BorderColor = Color.Gray
-        btnCambioSigno.FlatAppearance.CheckedBackColor = Color.Gray
-        btnCambioSigno.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnCambioSigno.ForeColor = SystemColors.Desktop
-        btnCambioSigno.Location = New Point(11, 528)
-        btnCambioSigno.Name = "btnCambioSigno"
-        btnCambioSigno.Size = New Size(90, 79)
-        btnCambioSigno.TabIndex = 20
-        btnCambioSigno.Text = "+/_"
-        btnCambioSigno.UseVisualStyleBackColor = True
         ' 
         ' txtResultado
         ' 
@@ -393,25 +275,53 @@ Partial Class Form1
         txtResultado.Cursor = Cursors.IBeam
         txtResultado.Font = New Font("Cascadia Code", 30F, FontStyle.Bold, GraphicsUnit.Point)
         txtResultado.ForeColor = Color.Black
-        txtResultado.Location = New Point(15, 24)
+        txtResultado.Location = New Point(10, 72)
         txtResultado.Name = "txtResultado"
         txtResultado.PlaceholderText = "0"
         txtResultado.ReadOnly = True
-        txtResultado.Size = New Size(375, 59)
+        txtResultado.Size = New Size(380, 59)
         txtResultado.TabIndex = 25
         txtResultado.TextAlign = HorizontalAlignment.Right
+        ' 
+        ' txtOperacion
+        ' 
+        txtOperacion.BackColor = SystemColors.HighlightText
+        txtOperacion.BorderStyle = BorderStyle.None
+        txtOperacion.Cursor = Cursors.IBeam
+        txtOperacion.Font = New Font("Cascadia Code", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point)
+        txtOperacion.ForeColor = Color.Black
+        txtOperacion.Location = New Point(10, 12)
+        txtOperacion.Name = "txtOperacion"
+        txtOperacion.ReadOnly = True
+        txtOperacion.Size = New Size(378, 39)
+        txtOperacion.TabIndex = 26
+        txtOperacion.TextAlign = HorizontalAlignment.Right
+        ' 
+        ' btnPunto
+        ' 
+        btnPunto.BackColor = SystemColors.ButtonHighlight
+        btnPunto.FlatAppearance.BorderColor = Color.Gray
+        btnPunto.FlatAppearance.CheckedBackColor = Color.Gray
+        btnPunto.Font = New Font("Cascadia Code", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        btnPunto.ForeColor = SystemColors.Desktop
+        btnPunto.Location = New Point(204, 412)
+        btnPunto.Name = "btnPunto"
+        btnPunto.Size = New Size(90, 79)
+        btnPunto.TabIndex = 27
+        btnPunto.Text = "."
+        btnPunto.UseVisualStyleBackColor = True
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(9F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ButtonHighlight
-        ClientSize = New Size(402, 622)
+        ClientSize = New Size(402, 604)
+        Controls.Add(btnPunto)
+        Controls.Add(txtOperacion)
         Controls.Add(txtResultado)
         Controls.Add(btnIgual)
-        Controls.Add(btnPunto)
         Controls.Add(btnout)
-        Controls.Add(btnCambioSigno)
         Controls.Add(btnSuma)
         Controls.Add(btnThree)
         Controls.Add(btnTwo)
@@ -425,13 +335,7 @@ Partial Class Form1
         Controls.Add(btnEight)
         Controls.Add(btnSeven)
         Controls.Add(btnDivision)
-        Controls.Add(btnRaiz)
-        Controls.Add(btnCuadrado)
-        Controls.Add(btnInversa)
-        Controls.Add(btnDEL)
         Controls.Add(btnC)
-        Controls.Add(btnCE)
-        Controls.Add(btnPorcentaje)
         Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
         HelpButton = True
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
@@ -441,15 +345,8 @@ Partial Class Form1
         ResumeLayout(False)
         PerformLayout()
     End Sub
-
-    Friend WithEvents btnPorcentaje As Button
-    Friend WithEvents btnCE As Button
     Friend WithEvents btnC As Button
-    Friend WithEvents btnDEL As Button
     Friend WithEvents btnDivision As Button
-    Friend WithEvents btnRaiz As Button
-    Friend WithEvents btnCuadrado As Button
-    Friend WithEvents btnInversa As Button
     Friend WithEvents btnMultiplicacion As Button
     Friend WithEvents btnNine As Button
     Friend WithEvents btnEight As Button
@@ -463,8 +360,8 @@ Partial Class Form1
     Friend WithEvents btnTwo As Button
     Friend WithEvents btnOne As Button
     Friend WithEvents btnIgual As Button
-    Friend WithEvents btnPunto As Button
     Friend WithEvents btnout As Button
-    Friend WithEvents btnCambioSigno As Button
     Public WithEvents txtResultado As TextBox
+    Public WithEvents txtOperacion As TextBox
+    Friend WithEvents btnPunto As Button
 End Class
